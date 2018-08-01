@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -53,6 +54,12 @@
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="Please enter email here" required>
+                <div class="invalid-feedback">
+                    Now hold on there! How will I return you reponse?
+                </div>
+                <div class="valid-feedback">
+                    Now that's more like it!
+                </div>
             </div>
             
            <div class="form-group">
@@ -62,6 +69,7 @@
             <div class="form-group">
                 <label form="select"> Inquiry</label>
                 <select id="select" >
+                    <option></option>
                     <option>Fan mail</option>
                     <option>Celebrity-Hero Apparences</option>
                     <option>Photo Ops</option>
@@ -69,14 +77,17 @@
             </div>
             <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="check1">
-                <label class="form-check-label" for="check1">Checkbox</label>
+                <label class="form-check-label" for="check1">Citizen</label>
                 
             </div>
             <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="check2">
-                <label class="form-check-label" for="check2">Checkbox</label>
+                <label class="form-check-label" for="check2">Hero</label>
             </div>
-            
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="check3">
+                <label class="form-check-label" for="check3">Villian</label>
+            </div>
             <button type="submit" class="btn btn-outline-warning btn-block" onclick="myfunction()">
                 SUBMIT HERE FELLOW CITIZEN
             </button>

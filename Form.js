@@ -12,7 +12,8 @@ function myfunction(){
     console.log(check);
     var check = document.getElementById("check2").checked; 
     console.log(check);
-    
+    var check = document.getElementById("check3").checked; 
+    console.log(check);
 }
 
 (function() {
